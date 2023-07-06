@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {
   ContactListUl,
   ContactItem,
@@ -23,9 +23,9 @@ const ContactList = ({ filteredContacts, deleteContact }) => {
   );
 };
 
-ContactList.propTypes = {
-  filteredContacts: PropTypes.array.isRequired,
-  deleteContact: PropTypes.func.isRequired,
-};
+// ContactList.propTypes = {
+//   filteredContacts: PropTypes.array.isRequired,
+//   deleteContact: PropTypes.func.isRequired,
+// };
 
 export default ContactList;
